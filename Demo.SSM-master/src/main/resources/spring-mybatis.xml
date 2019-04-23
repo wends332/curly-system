@@ -28,7 +28,7 @@
         <property name="testConnectionOnCheckin" value="${c3p0.testConnectionOnCheckin}"/>
         <property name="maxStatements" value="${c3p0.maxStatements}"/>
         <property name="maxStatementsPerConnection" value="${c3p0.maxStatementsPerConnection}"/>
-        <property name="unreturnedConnectionTimeout" value="${c3p0.unreturnedConnectionTimeout}"/>
+        <property name="unreturnedConnectionTimeout" value="${c3p0.unreturnedConnectionTimeout}"/> 
     </bean>
 
     <!-- 配置mybatisSqlSessionFactoryBean -->

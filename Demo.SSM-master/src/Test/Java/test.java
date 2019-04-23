@@ -1,5 +1,6 @@
 
 
+import java.util.List;
 import Entity.Student;
 import Service.IStudentService;
 import org.junit.runner.RunWith;
@@ -19,9 +20,12 @@ public class test {
     @org.junit.Test
     public void test() {
         Student student=new Student();
-        student.setClassid(1);
-        for (Student student1 : service.selectByCondition(student)) {
+        student.setClassid(12);
+        List<Student> listStu = service.selectByCondition(student);
+        for (Student student1 : listStu) {
             System.out.println(student1.getName());
+            System.out.println(student1.getAge());
+            System.out.println(student1.getUid());
         }
     }
 }
