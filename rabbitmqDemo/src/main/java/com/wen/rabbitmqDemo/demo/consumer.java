@@ -6,6 +6,7 @@ import com.rabbitmq.client.*;
 
 public class consumer {
 	public static void main(String[] args) throws IOException, TimeoutException {
+        //提交测试
 		ConnectionFactory connectionFactory =  new ConnectionFactory();
         connectionFactory.setHost("127.0.0.1");
         connectionFactory.setUsername("wen");
