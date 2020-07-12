@@ -5,6 +5,7 @@ import java.util.concurrent.TimeoutException;
 import com.rabbitmq.client.*;
 
 public class consumer {
+
 	public static void main(String[] args) throws IOException, TimeoutException {
         //提交测试
 		ConnectionFactory connectionFactory =  new ConnectionFactory();
